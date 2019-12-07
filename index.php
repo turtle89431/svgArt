@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    echo "hi";
 include_once("svgs.php");
 echo $svg1;
     ?>
