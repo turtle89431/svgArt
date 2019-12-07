@@ -7,8 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-    echo phpinfo();
+    <?php
+include_once("svgs.php");
+echo $svg1;
     ?>
 </body>
 </html>
