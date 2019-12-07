@@ -9,8 +9,10 @@
 <body>
     <?php
     echo "hi";
-include_once("svgs.php");
-echo $svg1;
+    $myfile = fopen("svg1.svg", "r") or die("Unable to open file!");
+    echo fread($myfile,filesize("svg1.svg"));
+    fclose($myfile);
+
     ?>
 </body>
 </html>
